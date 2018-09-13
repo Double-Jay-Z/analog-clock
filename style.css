@@ -14,9 +14,9 @@
 
 /* Clock styles */
 .circle {
-    fill: none;
+    fill: #1098F7;
     stroke: #000;
-    stroke-width: 9;
+    stroke-width: 15;
     stroke-miterlimit: 10;
 }
 
@@ -52,15 +52,13 @@
 }
 
 /* Transparent box ensuring arms center properly. */
-.sizing-box {
+ .sizing-box {
     fill: none;
 }
 
 /* Make all arms rotate around the same center point. */
-/* Optional: Use transition for animation. */
 #hour,
 #minute,
 #second {
     transform-origin: 300px 300px;
-    /*transition: transform .5s ease-in-out;*/
 }
